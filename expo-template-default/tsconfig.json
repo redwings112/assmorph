@@ -1,0 +1,18 @@
+{  
+  "compilerOptions": {  
+    "baseUrl": ".", // Set base URL for relative paths  
+    "paths": {  
+      "@/*": ["app/*"] // This maps `@` to your app directory  
+    },  
+    "jsx": "react-native", // This setting is essential for React Native projects  
+    "strict": true, // Optional: enables strict type checking  
+    "esModuleInterop": true // Enable interop between CommonJS and ES Modules  
+  },  
+  "extends": "expo/tsconfig.base",  
+  "include": [  
+    "**/*.ts",  
+    "**/*.tsx",  
+    ".expo/types/**/*.ts",  
+    "expo-env.d.ts"  
+  ]  
+}

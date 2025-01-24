@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ass morph",
+    "slug": "ass-morph", 
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/1000068604.png",
+    "scheme": "assmorph", 
+    "userInterfaceStyle": "automatic",
+    "splash": { 
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.assmorph" 
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.assmorph" 
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*" 
+    ],
+    "plugins": [
+        "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
